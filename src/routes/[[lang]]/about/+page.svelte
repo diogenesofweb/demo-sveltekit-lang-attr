@@ -2,4 +2,4 @@
 	export let data;
 </script>
 
-<h2>{data.ttt.about}</h2>
+<h2>{data.ttt.title['/about']}</h2>
