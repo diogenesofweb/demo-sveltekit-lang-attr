@@ -1,0 +1,7 @@
+{
+	"msg": "Bonjour le Monde",
+	"title": {
+		"/": "mon titre",
+		"/about": "à propos de nous"
+	}
+}

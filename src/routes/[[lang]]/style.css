@@ -1,0 +1,6 @@
+body {
+	font: system-ui;
+	color: black;
+	background: hsl(0 0% 70%);
+	line-height: 1.6;
+}

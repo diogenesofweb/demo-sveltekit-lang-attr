@@ -1,15 +1,12 @@
-import adapter from '@sveltejs/adapter-static'
+import adapter from '@sveltejs/adapter-static';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
-		target: '#svelte',
 		adapter: adapter({
-			pages: 'build',
-			assets: 'build',
-			fallback: null
-		})
+      fallback: '404.html'
+    })
 	}
-}
+};
 
-export default config
+export default config;
